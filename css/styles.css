@@ -409,11 +409,25 @@ header {
 .team-social-link {
   width: 44px;
   height: 44px;
-  background-color: ffffff;
+  background-color: #ffffff;
   display: flex;
   justify-content: center;
   align-items: center;
   border-radius: 50%;
+}
+
+.team-social-link:hover,
+.team-social-link:focus {
+  background-color: #ffffff;
+}
+
+.team-social-link:hover .team-social-icon,
+.team-social-link:focus .team-social-icon {
+  fill: #2196f3;
+}
+
+.team-social-link {
+  fill: #afb1b8;
 }
 
 .container-social-team {
@@ -441,32 +455,22 @@ header {
   border-radius: 4%;
 }
 
-.team-social-link:hover,
-.team-social-link:focus {
-  background-color: #ffffff;
-}
-
-.team-social-link:hover .team-social-icon,
-.team-social-link:focus .team-social-icon {
+.conteiner-social-icon:hover,
+.conteiner-social-icon:focus {
   fill: #2196f3;
 }
 
-.team-social-link {
+.conteiner-social-icon {
   fill: #afb1b8;
 }
 
-.conteiner-sicial-icon:hover,
-conteiner-sicial-icon:focus {
-  fill: #2196f3;
-}
-
-.conteiner-sicial-icon {
-  fill: #afb1b8;
+.conteiner-social-link {
+  border: 1px solid #afb1b8;
 }
 
 .conteiner-social-link:hover,
-conteiner-social-link:focus {
-  border: 2px solid #2196f3;
+.conteiner-social-link:focus {
+  border: 1px solid #2196f3;
 }
 
 .conteiner-section-icons {
@@ -540,6 +544,9 @@ conteiner-social-link:focus {
 
 .adress {
   margin-top: 20px;
+}
+
+.footer-icons {
 }
 
 /* Портфолио  */
