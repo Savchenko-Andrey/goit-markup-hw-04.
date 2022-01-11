@@ -568,6 +568,15 @@ header {
   margin-left: 70px;
 }
 
+.icons-footer + .icons-footer {
+  margin-left: 10px;
+}
+
+.list-footer {
+  display: flex;
+  flex-direction: row;
+}
+
 .footer-backgraund {
   display: flex;
   align-items: baseline;
